@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="images/gym_logo.png" alt="Gym logo">
+            <div>India Fitness</div>
+        </div>
+        <!-- middle box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for action buttons -->
+        <div class="right">
+            <button class="btn">Call Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h3>Join the Best Gym in Delhi Now</h3>
+            <form action="noaction.php">
+                <div class="form-group"><input type="text" name="Enter Username" id="username"
+                        placeholder="Enter Full Name" required>
+                </div>
+                <div class="form-group"><input type="email" name="Enter email" id="email" placeholder="Enter Email"
+                        required>
+                </div>
+                <div class="form-group">
+                    <input type="number" name="Enter Number" id="number" placeholder="Enter Contact No." required>
+                </div>
+                <button class="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
